@@ -9,6 +9,7 @@ class Node {
     }
 }
 public class InOrder {
+    
     ArrayList<Integer> inOrder(Node root) {
         // Code
         ArrayList<Integer>ar= new ArrayList<>();
