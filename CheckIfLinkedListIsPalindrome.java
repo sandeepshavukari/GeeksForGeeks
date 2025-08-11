@@ -1,9 +1,8 @@
+import java.util.Stack;
 public class CheckIfLinkedListIsPalindrome {
     static boolean isPalindrome(Node head) {
-        // Your code here
         Stack<Integer> s= new Stack<>();
         Node temp= head;
-        // Node cmp=head;
         Node new_node=null;
         while(temp!=null)
         {

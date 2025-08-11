@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MaxSumWithoutAdjacents {
     public static int ans(int n,int ar[],int dp[])
     {

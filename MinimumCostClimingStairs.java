@@ -1,6 +1,5 @@
-/**
- * MinimumCostClimingStairs
- */
+
+
 class MinimumCostClimingStairs {
     static int minCostClimbingStairs(int[] cost , int N) {
         //Write your code here

@@ -1,6 +1,4 @@
 public class KthfromEndofLinkedList {
-     // Function to find the data of kth node from
-    // the end of a linked list.
     int getKthFromLast(Node head, int k) {
         // Your code here
         int n=0;
@@ -13,7 +11,7 @@ public class KthfromEndofLinkedList {
         if(k>n)
         return -1;
         int m=n-k-1;
-        int ans;
+        int ans=0;
         for(int i=0;i<=m;i++)
         {
             head=head.next;

@@ -10,6 +10,7 @@ public class SerchInRotatedSortedArray {
     }
 
     //solution using binary serch
+     public int search1(int[] ar, int key) {
     int l=0,h=ar.length-1;
     while(l<=h)
     {
@@ -32,4 +33,5 @@ public class SerchInRotatedSortedArray {
         }
     }
     return -1;
+    }
 }

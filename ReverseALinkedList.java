@@ -1,16 +1,16 @@
 // function Template for Java
 
-/* linked list node class:
+import java.util.Stack;
 
 class Node {
     int data;
     Node next;
     Node(int value) {
-        this.value = value;
+        this.data = value;
     }
 }
 
-*/
+
 
 class ReverseALinkedList {
     Node reverseList(Node head) {

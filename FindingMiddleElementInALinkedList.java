@@ -9,7 +9,7 @@ public class FindingMiddleElementInALinkedList {
             head= head.next;
         }
         c=n/2+1;
-        int ans;
+        int ans=0;
         for(int i=1;i<c;i++)
         {
             ans=temp.data;
