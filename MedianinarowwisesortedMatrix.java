@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Medianinarow-wisesortedMatrix {
+public class MedianinarowwisesortedMatrix {
     public int median(int[][] mat) {
         // code here
         int n=mat.length;
